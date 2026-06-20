@@ -1,6 +1,6 @@
 # Tutorial de instalação do Libris Base
 
-Bem-vindo ao **Libris Base**! Este guia explica como criar o seu próprio projeto da **família de enciclopédias gerais Libris**.
+Bem-vindo(a) ao **Libris Base**! Este guia explica como criar o seu próprio projeto da **família de enciclopédias gerais Libris**.
 
 ## Requisitos
 
@@ -15,7 +15,7 @@ Antes de começar, você precisará de:
 
 # 1. Obtendo o código-fonte
 
-Faça um fork deste repositório ou clone-o:
+Faça um fork deste repositório ou clone-o diretamente pelo **terminal do Windows**:
 
 ```bash
 git clone https://github.com/projeto-libris/libris-base.git
@@ -53,20 +53,14 @@ Copie:
 
 # 3. Configurando as variáveis
 
-Crie um arquivo:
+Em ``main.js``, substitua:
 
-```txt
-.env
+```
+const SUPABASE_URL     = 'SUBSTITUA_AQUI_SEU_SUPABASE_URL';
+const SUPABASE_ANON_KEY = 'SUBSTITUA_AQUI_SEU_SUPABASE_ANON_KEY';
 ```
 
-ou configure as variáveis de ambiente na sua hospedagem.
-
-Exemplo:
-
-```env
-SUPABASE_URL=COLE_AQUI
-SUPABASE_ANON_KEY=COLE_AQUI
-```
+pelo **Supabase URL** e **Supabase anon key** que o projeto gerou.
 
 ---
 
@@ -219,9 +213,10 @@ Conteúdo: Bem-vindo(a) ao seu novo projeto Libris.
 
 Você pode publicar o projeto em:
 
-* GitHub Pages;
-* Netlify;
-* Vercel;
+* Cloudflare Pages (domínio: **.pages.dev**);
+* GitHub Pages (domínio: **.github.io**);
+* Netlify (domínio: **.netlify.app**);
+* Vercel (domínio: **.vercel.app**);
 * servidor próprio.
 
 Após a publicação, verifique:
