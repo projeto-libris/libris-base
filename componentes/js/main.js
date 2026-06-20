@@ -162,7 +162,7 @@ const SUPABASE_URL     = 'https://abmcwwdkfoiybrxzofyd.supabase.co';
     const post = posts[0];
     const cat  = post.categories;
 
-    document.title = `${post.title} - Libris Itaboraí`;
+    document.title = `${post.title} - Libris Base`;
 
     main.innerHTML = `
       <a class="back-link" href="/">&larr; Todos os artigos</a>
