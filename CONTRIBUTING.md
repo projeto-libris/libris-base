@@ -79,4 +79,4 @@ Você pode contribuir:
 
 Cada correção, sugestão ou melhoria ajuda a tornar o Libris Base uma enciclopédia geral melhor para todos.
 
-📚 Construa conhecimento. Compartilhe conhecimento. Preserve conhecimento.
+> ***Libris Base**: Uma base para a criação de enciclopédias digitais independentes.*
