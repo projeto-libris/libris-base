@@ -142,7 +142,7 @@ INSERT INTO public.categories (name, slug) VALUES
   ('Cultura',   'Cultura'),
   ('Geografia',    'Geografia'),
   ('Tecnologia',  'Tecnologia'),
-  ('Fora de Tópico',     'Fora de Tópico');
+  ('Fora de Tópico',     'Fora_de_Tópico');
 
 
 INSERT INTO public.posts (title, slug, content, category_id, published_at)
@@ -154,7 +154,7 @@ VALUES (
 Edite ou apague este registro no Supabase assim que quiser começar com seu próprio conteúdo.
 
 Para criar um novo artigo, vá em Table Editor → posts → Insert row.',
-  (SELECT id FROM public.categories WHERE slug = 'pessoal'),
+  (SELECT id FROM public.categories WHERE slug = 'Fora_de_Tópico'),
   NOW()
 );
 ```
