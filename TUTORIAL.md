@@ -230,7 +230,7 @@ Após a publicação, verifique:
 
 # 9. Fazendo parte da Família Libris
 
-Os projetos pertencentes à Família de enciclopédias gerais Libris deverão exibir a seguinte declaração (no ``<footer class="card-footer">``, onde se encontra "**© 2026 Projeto Libris. Todos os direitos reservados.**"):
+Os projetos pertencentes à família de enciclopédias gerais Libris deverão exibir a seguinte declaração (no ``<footer class="card-footer">``, onde se encontra "**© 2026 Projeto Libris. Todos os direitos reservados.**"):
 
 > © 2026 Projeto Libris. Todos os direitos reservados. | Este projeto Libris faz parte da família de enciclopédias gerais Libris.
 
