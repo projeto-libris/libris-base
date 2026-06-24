@@ -4,6 +4,8 @@
 
 O projeto fornece uma base simples para a construção de enciclopédias digitais independentes, voltadas à documentação, preservação e divulgação do conhecimento.
 
+**AVISO: Projetos Libris que incluirem apenas `© 2026 Projeto Libris. Todos os direitos reservados.` são oficiais.**
+
 ## O que é um projeto Libris?
 
 Um projeto Libris é uma enciclopédia digital criada a partir do Libris Base e dedicada a um tema específico, como:
